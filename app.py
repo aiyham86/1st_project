@@ -12,7 +12,7 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
-mpg_df_raw = load_data("C:/Users/aa/Desktop/Streamlit/data/mpg.csv")
+mpg_df_raw = load_data("C:/Users/aa/Desktop/Streamlit/mpg.csv")
 mpg_df = deepcopy(mpg_df_raw)
 
 st.title("Introduction to Streamlit")
